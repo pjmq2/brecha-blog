@@ -8,14 +8,15 @@ import pic08 from '../assets/images/pic08.jpg'
 import pic09 from '../assets/images/pic09.jpg'
 import pic10 from '../assets/images/pic10.jpg'
 
-const landing = (props) => (
+const descripcionBanner = "Una hermandad cristiana, ecuménica e internacional de hombres consagrados en la soltería para el Señor, que busca que otras personas le conozcan, le amen y le sigan.";
+const siervos = (props) => (
     <Layout>
         <Helmet>
             <title>Brecha de Pablo Madrigal</title>
             <meta name="description" content="landing Page" />
         </Helmet>
 
-        <BannerPaginas titulo="Landing" descripcion="Desripcion Landing"/>
+        <BannerPaginas titulo="Siervos de la Palabra" descripcion={descripcionBanner}/>
 
         <div id="main">
             <section id="one">
@@ -81,4 +82,4 @@ const landing = (props) => (
     </Layout>
 )
 
-export default landing
+export default siervos

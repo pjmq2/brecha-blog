@@ -10,8 +10,8 @@ import pic10 from '../assets/images/pic10.jpg'
 const Elements = (props) => (
     <Layout>
         <Helmet>
-            <title>Elements - Forty by HTML5 UP</title>
-            <meta name="description" content="Elements Page" />
+            <title>Brecha de Pablo Madrigal</title>
+            <meta name="description" content="landing Page" />
         </Helmet>
 
         <div id="main" className="alt">

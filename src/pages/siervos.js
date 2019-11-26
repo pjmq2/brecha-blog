@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import BannerPaginas from '../components/BannerPaginas'
 
@@ -11,11 +10,6 @@ import pic10 from '../assets/images/pic10.jpg'
 const descripcionBanner = "Una hermandad cristiana, ecuménica e internacional de hombres consagrados en la soltería para el Señor, que busca que otras personas le conozcan, le amen y le sigan.";
 const siervos = (props) => (
     <Layout>
-        <Helmet>
-            <title>Brecha de Pablo Madrigal</title>
-            <meta name="description" content="landing Page" />
-        </Helmet>
-
         <BannerPaginas titulo="Siervos de la Palabra" descripcion={descripcionBanner}/>
 
         <div id="main">

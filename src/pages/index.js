@@ -1,73 +1,52 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import Banner from '../components/Banner'
 
-import pic01 from '../assets/images/pic01.jpg'
+import Brecha from '../assets/images/Retiro_Inicio_Brecha.jpg'
+import MCU from '../assets/images/MCU-CenaGala.jpg'
+import Siervos from '../assets/images/SiervosMatacanes.jpg'
+import VIVAMUS from '../assets/images/VIVAMUS.jpg'
+
+/*import pic01 from '../assets/images/pic01.jpg'
 import pic02 from '../assets/images/pic02.jpg'
 import pic03 from '../assets/images/pic03.jpg'
 import pic04 from '../assets/images/pic04.jpg'
 import pic05 from '../assets/images/pic05.jpg'
-import pic06 from '../assets/images/pic06.jpg'
+import pic06 from '../assets/images/pic06.jpg'*/
 
 class HomeIndex extends React.Component {
     render() {
 
         return (
             <Layout>
-                <Helmet
-                    title="Gatsby Starter - Forty"
-                    meta={[
-                        { name: 'description', content: 'Sample' },
-                        { name: 'keywords', content: 'sample, something' },
-                    ]}
-                >
-                </Helmet>
-
                 <Banner />
-
                 <div id="main">
                     <section id="one" className="tiles">
-                        <article style={{backgroundImage: `url(${pic01})`}}>
+                        <article style={{backgroundImage: `url(${Siervos})`}}>
                             <header className="major">
                                 <h3>Siervos de la Palabra</h3>
-                                <p>Ipsum dolor sit amet</p>
+                                <p>Amarlo y que sea amado</p>
                             </header>
                             <Link to="/siervos" className="link primary"></Link>
                         </article>
-                        <article style={{backgroundImage: `url(${pic02})`}}>
+                        <article style={{backgroundImage: `url(${Brecha})`}}>
                             <header className="major">
-                                <h3>Tempus</h3>
-                                <p>feugiat amet tempus</p>
+                                <h3>En la Brecha</h3>
+                                <p>Programa de misioneros voluntarios</p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
-                        <article style={{backgroundImage: `url(${pic03})`}}>
+                        <article style={{backgroundImage: `url(${MCU})`,backgroundPosition: "top"}}>
                             <header className="major">
-                                <h3>Magna</h3>
-                                <p>Lorem etiam nullam</p>
+                                <h3>MCU</h3>
+                                <p>Todo por amor a Cristo</p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
-                        <article style={{backgroundImage: `url(${pic04})`}}>
+                        <article style={{backgroundImage: `url(${VIVAMUS})`}}>
                             <header className="major">
-                                <h3>Ipsum</h3>
-                                <p>Nisl sed aliquam</p>
-                            </header>
-                            <Link to="/landing" className="link primary"></Link>
-                        </article>
-                        <article style={{backgroundImage: `url(${pic05})`}}>
-                            <header className="major">
-                                <h3>Consequat</h3>
-                                <p>Ipsum dolor sit amet</p>
-                            </header>
-                            <Link to="/landing" className="link primary"></Link>
-                        </article>
-                        <article style={{backgroundImage: `url(${pic06})`}}>
-                            <header className="major">
-                                <h3>Etiam</h3>
-                                <p>Feugiat amet tempus</p>
+                                <h3>Jesed</h3>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
@@ -84,7 +63,6 @@ class HomeIndex extends React.Component {
                         </div>
                     </section>
                 </div>
-
             </Layout>
         )
     }

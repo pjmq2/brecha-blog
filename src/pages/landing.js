@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import BannerPaginas from '../components/BannerPaginas'
 
@@ -10,10 +9,6 @@ import pic10 from '../assets/images/pic10.jpg'
 
 const landing = (props) => (
     <Layout>
-        <Helmet>
-            <title>Brecha de Pablo Madrigal</title>
-            <meta name="description" content="landing Page" />
-        </Helmet>
 
         <BannerPaginas titulo="Landing" descripcion="Desripcion Landing"/>
 

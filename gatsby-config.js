@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "Brecha",
-    author: "Pablo Madrigal",
-    description: "Pagina/Blog de mi brecha y tiempo de formación"
+    title: "Gatsby Starter - Forty V2",
+    author: "Hunter Chang",
+    description: "A Gatsby.js V2 Starter based on Forty by HTML5 UP"
   },
   plugins: [
     'gatsby-plugin-react-helmet',

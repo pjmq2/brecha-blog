@@ -1,8 +1,8 @@
 {
-  "name": "Brecha",
-  "description": "Pagina/Blog de mi brecha y tiempo de formación",
+  "name": "gatsby-starter-forty-v2",
+  "description": "Gatsby Starter - Forty V2",
   "version": "1.0.0",
-  "author": "Pablo Madrigal",
+  "author": "Hunter Chang",
   "dependencies": {
     "gatsby": "^2.15.14",
     "gatsby-plugin-manifest": "^2.2.16",

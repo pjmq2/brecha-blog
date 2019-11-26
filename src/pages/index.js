@@ -35,23 +35,24 @@ class HomeIndex extends React.Component {
                                 <h3>En la Brecha</h3>
                                 <p>Programa de misioneros voluntarios</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/brecha" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${MCU})`,backgroundPosition: "top"}}>
                             <header className="major">
                                 <h3>MCU</h3>
                                 <p>Todo por amor a Cristo</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/mcu" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${VIVAMUS})`}}>
                             <header className="major">
-                                <h3>Jesed</h3>
+                                <h3>Vida Comunitaria</h3>
+                                <p>Un llamado para toda la vida</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/comu" className="link primary"></Link>
                         </article>
                     </section>
-                    <section id="two">
+                    {/*<section id="two">
                         <div className="inner">
                             <header className="major">
                                 <h2>Massa libero</h2>
@@ -61,7 +62,7 @@ class HomeIndex extends React.Component {
                                 <li><Link to="/landing" className="button next">Get Started</Link></li>
                             </ul>
                         </div>
-                    </section>
+                    </section>*/}
                 </div>
             </Layout>
         )

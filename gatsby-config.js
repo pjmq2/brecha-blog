@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: "Brecha by Pablo Madrigal",
+    title: "Brecha",
     author: "Pablo Madrigal",
     description: "Pagina/Blog de mi brecha y tiempo de formación"
   },

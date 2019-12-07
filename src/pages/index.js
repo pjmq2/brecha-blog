@@ -7,8 +7,8 @@ import Brecha from '../assets/images/Retiro_Inicio_Brecha.jpg'
 import MCU from '../assets/images/MCU-CenaGala.jpg'
 //import Siervos from '../assets/images/SiervosMatacanes.jpg'
 import VIVAMUS from '../assets/images/VIVAMUS.jpg'
+import Siervos from '../assets/images/siervos.jpg'
 
-import Siervos from '../assets/images/pic01.jpg'
 /*import pic02 from '../assets/images/pic02.jpg'
 import pic03 from '../assets/images/pic03.jpg'
 import pic04 from '../assets/images/pic04.jpg'
@@ -23,6 +23,7 @@ class HomeIndex extends React.Component {
                 <Banner />
                 <div id="main">
                     <section id="one" className="tiles">
+                    {/*
                         <article style={{backgroundImage: `url(${Siervos})`}}>
                             <header className="major">
                                 <h3>Siervos de la Palabra</h3>
@@ -30,6 +31,7 @@ class HomeIndex extends React.Component {
                             </header>
                             <Link to="/siervos" className="link primary"></Link>
                         </article>
+                       
                         <article style={{backgroundImage: `url(${Brecha})`}}>
                             <header className="major">
                                 <h3>En la Brecha</h3>
@@ -37,6 +39,8 @@ class HomeIndex extends React.Component {
                             </header>
                             <Link to="/brecha" className="link primary"></Link>
                         </article>
+                         */}
+                        {/*
                         <article style={{backgroundImage: `url(${MCU})`,backgroundPosition: "top"}}>
                             <header className="major">
                                 <h3>MCU</h3>
@@ -50,6 +54,15 @@ class HomeIndex extends React.Component {
                                 <p>Un llamado para toda la vida</p>
                             </header>
                             <Link to="/comu" className="link primary"></Link>
+                        </article>*/}
+                    </section>
+                    <section className="tiles">
+                        <article style={{backgroundImage: `url(${Brecha})`}}>
+                            <header className="major">
+                                <h3>En la Brecha</h3>
+                                <p>Programa de misioneros voluntarios</p>
+                            </header>
+                            <Link to="/brecha" className="link primary"></Link>
                         </article>
                     </section>
                     {/*<section id="two">

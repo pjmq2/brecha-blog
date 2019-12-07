@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 import Layout from '../components/layout'
 import BannerPaginas from '../components/BannerPaginas'
 
-import pic08 from '../assets/images/Agosto/20190822_154601-COLLAGE.jpg'
+import pic08 from '../assets/images/Agosto/Collage Agosto.png'
 import pic09 from '../assets/images/Agosto/el-cerro-de-la-silla.jpg'
 import pic10 from '../assets/images/pic10.jpg'
 

@@ -3,6 +3,7 @@ import Layout from '../components/layout'
 //import EarthApp from '../components/globoTerraqueo'
 import MapOnModal from '../components/MapaEnModal'
 import ReactPlayer from 'react-player'
+import Iframe from 'react-iframe'
 
 import pic1 from '../assets/images/Agosto/IMG-20190819.jpg'
 import pic2 from '../assets/images/Agosto/IMG-20190820.jpg'
@@ -11,6 +12,7 @@ const MapStyles = {
     width: '80%',
     height: '100%'
   }
+
 
 const Agosto = (props) => (
     <Layout>
@@ -35,9 +37,20 @@ const Agosto = (props) => (
                     Pablo verdad.</p>
 
                     <p> Monterrey es muy grande comparado a Costa Rica, las calles son dos o tres veces más grandes y con el doble de niveles, la ciudad 
-                    tiene casi la población de todo mi país y el estado de Nuevo León es tres veces más grande, y por lo tanto la vida es muy diferente, 
+                    tiene casi la población de todo mi país y el estado de Nuevo León también más grande en territorio, y por lo tanto la vida es muy diferente, 
                     de no ser por qué como dije antes el "Modo de vida" comunitario es prácticamente igual ya sea Costa Rica, Guatemala, España o México, 
                     SOMOS UN MISMO PUEBLO. </p>
+
+                    <center>
+                        <Iframe url="https://thetruesize.com/#/aboutModal?borders=1~!MTE4OTAxMDg.MTExNzMzNjE*ODg3NzQ4OQ(NzIwODQ0Ng~!CR*MjQ0MDA3Mw.MTQ1ODA4MTg(Mzk)Mw"
+                            width="800px"
+                            height="500px"
+                            id="myId"
+                            className="myClassname"
+                            display="initial"
+                            position="relative"/>
+                    </center>
+                    
 
                     <p>Acá en México cambie un poco en mis servicios, ya que a pesar de ir a CEM casi toda mi universidad, mi servicio principal era con 
                     adolescentes en Shalom. Aquí me tocó servir en el MCU del Tecnológico de Monterrey (que queda a menos de 500m de la casa)</p>
@@ -52,13 +65,11 @@ const Agosto = (props) => (
                     <center> <ReactPlayer url="https://www.youtube.com/watch?v=d5m8_r-ECC4" /> </center>
                     <br/>
 
-                    <p>En mi generación de la Brecha somos 10 aunque la mitad se van a ir a otras comunidades, ya tuvimos la primera despedida y pronto se 
+                    <p><span className="image left"><img src={pic2} alt="" /></span>En mi generación de la Brecha somos 10 aunque la mitad se van a ir a otras comunidades, ya tuvimos la primera despedida y pronto se 
                     van otros 3. Pero es una generación muy chiva y bastante diversa, varios mexicanos, una Dominicana, un Indio y yo. En los hombres 
                     estamos David huitrón de aquí de Monterrey, Ricardo Ibarra de Mexicali, Jonathan León de Xalapa, Nathaniel Fernández de India y yo de 
                     Costa Rica. Las mujeres son Maria García de República Dominicana, Isabel de Tampico, Magui Perez de Xalapa, Sara Llamas y Sandra Delgado de 
                     San Miguel Allende</p>
-
-                    <span className="image main"><img src={pic2} alt="" /></span>
 
                     <p>Y en general este primer mes ha sido vivir la formación de la Brecha (al fin oficialmente) e ir conociendo un poco la ciudad y 
                     los hermanos con los que me tocó servir. Por suerte ya venía un poco preparado para manejar aquí y desde mi primer día ya pude tomar

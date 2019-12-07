@@ -1,6 +1,6 @@
 import React from 'react'
 import Layout from '../components/layout'
-import EarthApp from '../components/globoTerraqueo'
+//import EarthApp from '../components/globoTerraqueo'
 import MapOnModal from '../components/MapaEnModal'
 import ReactPlayer from 'react-player'
 

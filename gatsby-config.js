@@ -18,6 +18,14 @@ module.exports = {
         icon: 'src/assets/images/brecha-icon.png', // This path is relative to the root of the site.
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `blog`,
+        path: `${__dirname}/content/blog`,
+      },
+    },
+    `gatsby-transformer-remark`,
     'gatsby-plugin-sass',
     'gatsby-plugin-offline',
     `gatsby-plugin-netlify-cms`

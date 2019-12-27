@@ -91,7 +91,7 @@ class Snake extends React.Component {
                 newSnake[0] = [this.state.snake[0][0] + 1, this.state.snake[0][1]];
                 break;
             // left
-            case 37:
+            default: //case 37:
                 newSnake[0] = [this.state.snake[0][0] - 1, this.state.snake[0][1]];
                 break;
         }

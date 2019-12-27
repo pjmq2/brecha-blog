@@ -1,9 +1,8 @@
 import React from 'react'
-import { Link } from 'gatsby'
 import Layout from '../components/layout'
 import BannerPaginas from '../components/BannerPaginas'
 
-import pic08 from '../assets/images/pic08.jpg'
+//import pic08 from '../assets/images/pic08.jpg'
 
 const descripcionBanner = "Una hermandad cristiana, ecuménica e internacional de hombres consagrados en la soltería para el Señor, que busca que otras personas le conozcan, le amen y le sigan.";
 const siervos = (props) => (
